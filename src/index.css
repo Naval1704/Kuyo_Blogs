@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000vh;
+  margin: 0 auto;
+  border-bottom: 1px solid #dbdbdb;
+}
+.navbar h1 {
+  padding-left: 25px;
+  color: #50b2df;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 5px;
+}
+.navbar a:hover {
+  color: #50b2df;
+  border-bottom: 1px solid #50b2df;
+}
+.content {
+  max-width: 100vh;
+  margin: 40px auto;
+  padding: 20px;
+  /* border: 1px solid #c6c5c5; */
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  text-decoration: none;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #50b2df;
+  margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+} 
+
+.author-name {
+  font-weight: bold;
+}
+
+/* blog details / list */
+.blog-details h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #50b2df;
+  margin-bottom: 8px; 
+}
+.blog-details button{
+  background: #50b2df;
+  color: #fff;
+  font-weight: bold;
+  width: 10vh;
+  border: 0;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.author-name {
+  font-size: 20px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+/* New Blog  */
+.create {
+  max-width: 80vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 25px;
+  color: #50b2df;
+  margin-bottom: 30px;
+}
+.create input, .create textarea {
+  width: 100%;
+  font-size: 17px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create textarea {
+  font-size: 17px;
+  height: 200px;
+}
+.create button {
+  background: #50b2df;
+  color: #fff;
+  font-weight: bold;
+  width: 50vh;
+  border: 0;
+  margin: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
