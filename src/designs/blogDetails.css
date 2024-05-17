@@ -1,0 +1,26 @@
+/* blog details / list */
+.blog-details h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #50b2df;
+    margin-bottom: 8px; 
+  }
+  .blog-details button{
+    background: #50b2df;
+    color: #fff;
+    font-weight: bold;
+    width: 10vh;
+    border: 0;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .author-name {
+    font-size: 20px;
+  }
+  
+  .blog-details div {
+    margin: 20px 0;
+  }

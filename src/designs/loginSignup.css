@@ -1,0 +1,119 @@
+/* Login page */
+.login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #50b2df;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .card h2 {
+    color: #50b2df;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .card h4 {
+    color: rgb(113, 113, 113);
+    padding-bottom: 10px;
+  }
+  
+  .card p {
+    color: gray;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 94.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #50b2df;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3a8cb1;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .btn-google,
+  .btn-facebook {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-google {
+    background-color: #db4437;
+    color: white;
+  }
+  
+  .btn-google:hover {
+    background-color: #c23321;
+  }
+  
+  .btn-facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .btn-facebook:hover {
+    background-color: #2d4373;
+  }
+  
+  

@@ -1,22 +1,26 @@
-import NavBar from './navbar';
+import NavBar from './components/Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
-import Create from './create';
+import Create from './Create';
 import BlogDetails from './BlogDetails';
-// import MyBlog from './myBlogs';
+import Login from './screens/Login';
+// import MyBlogs from './screens/MyBlog';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar/>
+      <NavBar/>
         <div className='content'>
           <Switch>
             <Route exact path='/'>
               <Home/>
             </Route>
-            {/* <Route path='myBlogs'>
-              <MyBlog/>
+            <Route exact path='/Login'>
+              <Login/>
+            </Route>
+            {/* <Route exact path='/MyBlogs'>
+              <MyBlogs/>
             </Route> */}
             <Route path='/Create'>
               <Create/>

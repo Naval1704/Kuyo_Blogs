@@ -1,0 +1,32 @@
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 1000vh;
+    margin: 0 auto;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .navbar h1 {
+    padding-left: 25px;
+    text-decoration: none;
+    color: #50b2df;
+  }
+  .navbar .links {
+    margin-left: auto;
+  }
+  
+  .navbar a h1{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .links a:hover {
+    color: #50b2df;
+    border-bottom: 1px solid #50b2df;
+  }
