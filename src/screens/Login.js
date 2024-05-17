@@ -37,6 +37,9 @@ export default function Login() {
         <div className="create-account">
           <p>Don't have an account? <a href="/create-account">Create one</a></p>
         </div>
+        <div className="skip">
+          <a href="/create-account">Skip</a>
+        </div>
       </div>
     </div>
   );

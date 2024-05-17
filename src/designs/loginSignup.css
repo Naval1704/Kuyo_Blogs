@@ -171,3 +171,12 @@ input[type="checkbox"] {
 .create-account a:hover {
   text-decoration: underline;
 }
+
+.skip a{
+  text-decoration: none;
+  color: gray;
+}
+
+.skip a:hover {
+  text-decoration: underline;
+}
