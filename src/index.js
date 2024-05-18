@@ -7,6 +7,7 @@ import './designs/newBlog.css';
 import './designs/blogDetails.css'
 import './designs/navBar.css';
 import './designs/homeBlogPreview.css';
+import './designs/footer.css';
 
 import App from './App';
 

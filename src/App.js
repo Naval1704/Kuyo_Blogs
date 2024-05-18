@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/rea
 import Create from './Create';
 import BlogDetails from './BlogDetails';
 import Login from './screens/Login';
+import Footer from './components/Footer';
 // import MyBlogs from './screens/MyBlog';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer/>
       </div>
     </Router>
   );
