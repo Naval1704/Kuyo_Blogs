@@ -1,5 +1,5 @@
 import BlogList from "./BlogList";
-import useFetch from "./useFetch";
+// import useFetch from "./useFetch";
 import React from "react";
 
 export default function Home() {

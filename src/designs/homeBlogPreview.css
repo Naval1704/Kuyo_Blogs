@@ -1,24 +1,107 @@
-/* blog previews / list */
+/* Blog previews / list */
 .blog-preview {
-    padding: 10px 16px;
-    margin: 20px 0;
-    text-decoration: none;
-    border-bottom: 1px solid #fafafa;
-  }
-  .blog-preview:hover {
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-  }
-  .blog-preview h2 {
-    font-size: 25px;
-    font-weight: bold;
-    color: #50b2df;
-    margin-bottom: 8px;
-  }
-  
-  .blog-preview a {
-    text-decoration: none;
-  } 
-  
-  .author-name {
-    font-weight: bold;
-  }
+  padding: 10px 16px;
+  margin: 20px 0;
+  text-decoration: none;
+  border-bottom: 1px solid #fafafa;
+  transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+}
+
+.blog-preview:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow on hover */
+}
+
+.blog-preview h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #50b2df;
+  margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+/* Blog interactions */
+.blog-interactions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  color: #666;
+}
+
+.blog-interactions > div {
+  display: flex;
+  align-items: center;
+}
+
+.likes-dislikes {
+  display: flex;
+  align-items: center;
+  gap:15px;
+}
+
+.likes-dislikes > svg {
+  margin-right: 5px;
+  cursor: pointer; 
+}
+
+.interaction-count {
+  padding: 0 8px; /* Add padding between counts */
+}
+
+.bookmark {
+  margin-left: auto;
+}
+
+/* Color classes */
+.liked {
+  color: blue;
+}
+
+.disliked {
+  color: red;
+}
+
+.bookmarked {
+  color: pink;
+}
+
+/* Comments section */
+.comments {
+  margin-top: 16px;
+}
+
+.comments h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.comment-interactions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.comment-interactions > svg {
+  margin-right: 5px;
+}
+
+.comments a {
+  color: #50b2df;
+  text-decoration: none;
+  display: block;
+  margin-top: 8px;
+}
+
+.comments a:hover {
+  text-decoration: underline;
+  color: #2a92bf;
+}

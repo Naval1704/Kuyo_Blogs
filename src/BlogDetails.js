@@ -1,7 +1,7 @@
 // import { useHistory, useParams } from "react-router-dom";
 import { useParams } from "react-router";
 import { useNavigate } from "react-router";
-import useFetch from "./useFetch";
+// import useFetch from "./UseFetch";
 import { useEffect, useState } from "react";
 
 const BlogDetails = () => {
