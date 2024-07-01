@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useNavigate } from "react-router";
 
 const Create = () => {
     const  [title, setTitle] = useState('') ;
@@ -7,21 +7,21 @@ const Create = () => {
     const [author, setAuthor] = useState('') ;
     const [isPending, setIsPending] = useState(false);
 
-    const history = useHistory();
+    const navigate = useNavigate();
  
     const handleSubmit = (e) => {
         e.preventDefault();
         const blog = {title, body, author} ;
         setIsPending(true);
 
-        fetch('http://localhost:8000/blogs', {
+        fetch('http://localhost:8000/post-blog', {
             method: 'POST',
             headers: {"Content-Type":"application/json"},
             body: JSON.stringify(blog)
         }).then(() => {
             console.log('new blog added');
             setIsPending(false);
-            history.push('/')
+            navigate('/')
         })
     }
 
